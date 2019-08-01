@@ -18,7 +18,5 @@ install:
 
 script:
     - make
-    - ./test/run-tests.sh
+    - sudo make install
 
-after_success:
-    - codecov
