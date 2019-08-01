@@ -12,7 +12,7 @@ addons:
 install:
     - pip install PyYAML
     - pip install codecov
-    - pip install schema
+    - pip3 install schema
     - pip install python-magic
     - pip install pyparsing
 
